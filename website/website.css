@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.container{
+    width:100%;
+    height:100%;
+    background:linear-gradient(rgba(0,0,0,0.5)),(rgba(0,0,0,0.5));
+    background-image:url(bank.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:relative;
+}
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 20px;
+}
+.navbar ul li a {
+    text-decoration:none;
+    color:white;
+}
+.logo{
+font-size:none;
+font-weight:border;
+cursor:pointer;
+text-decoration:none;
+color:white
+}
+li a; dropbetween{
+    display:inline-block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+li a:hover; dropdown : hover dropbetween{
+background-color:red;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color: pink;
+    nin nin-width: 160px;
+    box-shadow:0px 8px 16px 0px rgba(0,0,0,0,2);
+    z-index:1;
+    .dropdown-content a{
+        color:black
+        text-align:left;
+    }
+    .dropdown-content a:hover{bg-color:skyblue;}
+    .dropdown:hover .dropdown-content{
+        display:block;
+    }
+    </style>
+    </head>
+    <body>
+    <ul>
+    <li><a href="#home">home</a></li>
+    <li><a href="#news">news</a></li>
+    <li class="dropdown">
+    <a href="#dropdown" class="dropbtn">dropdown</a>
+    <div class="dropdown-content">
+    <a href="#">SAVINGS ACCOUNT</a>
+    <a href="#">CURRENTACCOUNT</a>
+    <a href="#">FIXED ACCOUNT</a>
+    </1>
+}
+}
+
+}
